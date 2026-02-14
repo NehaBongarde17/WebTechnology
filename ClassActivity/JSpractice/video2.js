@@ -1,19 +1,8 @@
 //Get user to input a number using prompt("Enter a number : ").Check if the number is a multiple of 5 or not
-//alert("Hello!")// one time alter 
 
-// let name = prompt("Hello!");
-// console.log(name);
-
-// let num = prompt("Enter a number : ");
-
-// if(num % 5 === 0){
-//     console.log(num + " is multiple of 5")
-// }else{
-//     console.log(num + " is not multiple of 5")
-// }
 
 //Write code which give grade to student
-let score = 50;
+let score = prompt("Enter the score : ");
 let grade;
 
 if(score <= 100 && score >= 90){
